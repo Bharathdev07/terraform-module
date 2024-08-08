@@ -1,8 +1,8 @@
 module "my_test" {
   source          = "./module"
-  instance_type   = var.vm
-  key_name         = var.new
+  insta  = var.vm
+  key        = var.new
   tags = {
-    Name = var.stage
+    Name = "UAT"
   }
 }
