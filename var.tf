@@ -1,12 +1,12 @@
 variable "vm" {
-    type="staring"
+    type="string"
     default=""
 }
 variable "stage" {
-    type="staring"
+    type="string"
     default=""
 }
 variable "new" {
-    type="staring"
+    type="string"
     default=""
 }
