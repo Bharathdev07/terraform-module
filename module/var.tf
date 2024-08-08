@@ -1,7 +1,4 @@
-variable "ami"{
-    type=string
-    default=""
-}
+
 variable "insta"{
     type=string
     default=""
