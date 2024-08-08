@@ -1,16 +1,16 @@
 variable "ami"{
-    type="staring"
+    type="string"
     default=""
 }
 variable "insta"{
-    type="staring"
+    type="string"
     default=""
 }
 variable "key"{
-    type="staring"
+    type="string"
     default=""
 }
 variable "env"{
-    type="staring"
+    type="string"
     default=""
 }
