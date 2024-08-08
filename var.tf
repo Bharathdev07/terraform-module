@@ -1,12 +1,17 @@
 variable "vm" {
-    type="string"
-    default=""
+  description = "The instance type for the EC2 instance"
+  type        = string
+  default     = ""
 }
+
 variable "stage" {
-    type="string"
-    default=""
+  description = "The stage for tagging"
+  type        = string
+  default     = ""
 }
+
 variable "new" {
-    type="string"
-    default=""
+  description = "The key name for the EC2 instance"
+  type        = string
+  default     = ""
 }
