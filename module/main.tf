@@ -1,5 +1,5 @@
 resource "aws_instance" "example"{
-    ami= var.ami
+    ami= "ami-0ad21ae1d0696ad58"
     instance_type= var.insta
     key_name= var.key
     tags={
